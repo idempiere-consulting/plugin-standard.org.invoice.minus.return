@@ -17,10 +17,9 @@ Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: RED1
 Bundle-SymbolicName: org.invoice.minus.return;singleton:=true
-Bundle-Version: 2.1.0.qualifier
-Bundle-RequiredExecutionEnvironment: JavaSE-1.6
-Require-Bundle: org.adempiere.base;bundle-version="2.1.0",
- org.adempiere.plugin.utils;bundle-version="2.1.0"
-Service-Component: OSGI-INF/PluginModelFactory.xml, OSGI-INF/PluginDocEvent.xml
+Bundle-Version: 10.0.0.qualifier
+Require-Bundle: org.adempiere.base,
+ org.adempiere.plugin.utils
+Service-Component: OSGI-INF/*.xml
 Import-Package: org.osgi.service.event;version="1.3.0"
 Bundle-ActivationPolicy: lazy
